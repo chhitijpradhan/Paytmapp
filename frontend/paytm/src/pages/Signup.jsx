@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
+import { ButtomWarning } from "./components/ButtomWarning";
 import { InputBox } from "./components/InputBox";
-import { ButtomWarning } from "../components/Buttomwarning";
 
+import { Button } from "./components/Button";
 export const Signup = ()=> {
     const [ firstName , setFirstName ] = useState("");
     const [lastName , setLastName ] = useState("");
